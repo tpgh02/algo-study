@@ -22,8 +22,8 @@
 ```  
 <br>
 
-다음과 같은 디렉토리 구조에서해당 week 디렉토리 안에  
-아래의 양식으로 README.md 파일을 만들어 줍니다.
+파일 구조를 읽고 week 디렉터리 안에 README.md 파일을 만들어 줍니다.  
+양식은 아래와 같습니다
 
 <br>
 
@@ -40,7 +40,7 @@
     
 <br>
 
-문제 이름을 가져오기 위해 [solvedac 비공식 API](https://solvedac.github.iounofficial-documentation/#/)를 사용하였습니다  
+문제 이름을 가져오기 위해 [solvedac 비공식 API](https://solvedac.github.io/unofficial-documentation/#/)를 사용하였습니다  
 
 <br>
 
