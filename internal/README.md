@@ -1,7 +1,7 @@
 # MD 만들기
 
 
-주별로 푼 문제들을 정리하고 확인하기 편하게 하기 위함
+### 주별로 푼 문제들을 정리하고 확인하기 편리하게 하기 위함
 
 ```
 .
@@ -19,13 +19,13 @@
     │   └── seorim.java
     └── README.md
     ...
-```
-  
+```  
+<br>
 
-다음과 같은 디렉토리 구조에서
-해당 week 디렉토리 안에  
-아래의 양식으로 README.md 파일을 만들어 준다
+다음과 같은 디렉토리 구조에서해당 week 디렉토리 안에  
+아래의 양식으로 README.md 파일을 만들어 줍니다.
 
+<br>
 
 > # WEEK1
 > 
@@ -36,8 +36,17 @@
 > |seho| [link](BOJ11057/seho.java)
 > |seorim| [link](BOJ11057/seorim.java)
 > ---
+  
+    
+<br>
+
+문제 이름을 가져오기 위해 [solvedac 비공식 API](https://solvedac.github.iounofficial-documentation/#/)를 사용하였습니다  
+
+<br>
 
 
 
-### 사용법   
-루트 디렉터리에서 `go run internal/*` 
+
+## 사용법   
+####  루트 디렉터리에서    
+#### `$ go run internal/main.go` 
