@@ -17,8 +17,8 @@ func NewMD(week string) MD {
 	}
 }
 
-func (m *MD) AddProblem(Problem Problem) {
-	m.Body = m.Body + "\n\n### " + Problem.platform + "_" + Problem.number + "\n\n"
+func (m *MD) AddProblem(Problem *Problem) {
+	m.Body = m.Body + "\n\n### " + Problem.platform + "_" + Problem.number + ": " + Problem.name + "\n\n"
 }
 
 func (m *MD) StartSolved() {

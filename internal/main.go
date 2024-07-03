@@ -32,7 +32,6 @@ func ReadWeekAndUpdateMD(week os.DirEntry) error {
 
 		problem := NewProblem(problemDir.Name())
 		md.AddProblem(problem)
-
 		problemDirPath := path.Join(week.Name(), problemDir.Name())
 
 		solvedByList, err := os.ReadDir(problemDirPath)
