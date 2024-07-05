@@ -53,4 +53,5 @@
 |이름|풀이 링크|
 |--|--|
 |hyungjun| [link](BOJ3085/hyungjun.cpp)
+|seho| [link](BOJ3085/seho.java)
 ---
