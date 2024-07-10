@@ -28,6 +28,22 @@
 ---
 
 
+### [BOJ_17298](https://boj.kr/17298) : 오큰수
+
+|이름|풀이 링크|
+|--|--|
+|gyuri| [link](BOJ17298/gyuri.py)
+---
+
+
+### [BOJ_1759](https://boj.kr/1759) : 암호 만들기
+
+|이름|풀이 링크|
+|--|--|
+|gyuri| [link](BOJ1759/gyuri.py)
+---
+
+
 ### [BOJ_2212](https://boj.kr/2212) : 센서
 
 |이름|풀이 링크|
@@ -59,4 +75,12 @@
 |--|--|
 |hyungjun| [link](BOJ5014/hyungjun.cpp)
 |seorim| [link](BOJ5014/seorim.java)
+---
+
+
+### [BOJ_5430](https://boj.kr/5430) : AC
+
+|이름|풀이 링크|
+|--|--|
+|gyuri| [link](BOJ5430/gyuri.py)
 ---
