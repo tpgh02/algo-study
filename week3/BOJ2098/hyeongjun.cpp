@@ -4,12 +4,12 @@ using namespace std;
 using ll = long long;
 using pii = pair<int, int>;
 using pll = pair<ll, ll>;
-int n, st;
+int n;
 int w[16][16];
 int dp[16][1<<16];
 int go(int now, int state) {
     if(state == (1 <<  n) - 1) {
-        return w[now][st] != 0 ? w[now][st] : 1e9;
+        return w[now][0] != 0 ? w[now][0] : 1e9;
     }
 
     int &ret = dp[now][state];
