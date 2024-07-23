@@ -51,6 +51,7 @@
 |Seorim| [link](BOJ1918/Seorim.java)
 |gyuri| [link](BOJ1918/gyuri.py)
 |hyungjun| [link](BOJ1918/hyungjun.cpp)
+|seho| [link](BOJ1918/seho.java)
 ---
 
 
