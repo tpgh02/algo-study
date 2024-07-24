@@ -64,5 +64,6 @@
 
 |이름|풀이 링크|
 |--|--|
+|Seorim| [link](BOJ2098/Seorim.java)
 |hyeongjun| [link](BOJ2098/hyeongjun.cpp)
 ---
