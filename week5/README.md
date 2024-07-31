@@ -16,9 +16,33 @@
 ---
 
 
+### [BOJ_11867](https://boj.kr/11867) : 박스 나누기 게임
+
+|이름|풀이 링크|
+|--|--|
+|hyeongjun| [link](BOJ11867/hyeongjun.cpp)
+---
+
+
 ### [BOJ_1753](https://boj.kr/1753) : 최단경로
 
 |이름|풀이 링크|
 |--|--|
 |hyeongjun| [link](BOJ1753/hyeongjun.cpp)
+---
+
+
+### [BOJ_20004](https://boj.kr/20004) : 베스킨라빈스 31
+
+|이름|풀이 링크|
+|--|--|
+|hyeongjun| [link](BOJ20004/hyeongjun.cpp)
+---
+
+
+### [BOJ_28707](https://boj.kr/28707) : 배열 정렬
+
+|이름|풀이 링크|
+|--|--|
+|hyeongjun| [link](BOJ28707/hyeongjun.cpp)
 ---
