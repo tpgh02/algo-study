@@ -6,6 +6,7 @@
 |--|--|
 |Seorim| [link](BOJ11404/Seorim.java)
 |hyeongjun| [link](BOJ11404/hyeongjun.cpp)
+|seho| [link](BOJ11404/seho.py)
 ---
 
 
@@ -15,6 +16,7 @@
 |--|--|
 |Seorim| [link](BOJ11657/Seorim.java)
 |hyeongjun| [link](BOJ11657/hyeongjun.cpp)
+|seho| [link](BOJ11657/seho.java)
 ---
 
 
@@ -24,6 +26,7 @@
 |--|--|
 |Seorim| [link](BOJ11867/Seorim.java)
 |hyeongjun| [link](BOJ11867/hyeongjun.cpp)
+|seho| [link](BOJ11867/seho.py)
 ---
 
 
@@ -33,6 +36,7 @@
 |--|--|
 |Seorim| [link](BOJ1753/Seorim.java)
 |hyeongjun| [link](BOJ1753/hyeongjun.cpp)
+|seho| [link](BOJ1753/seho.java)
 ---
 
 
@@ -42,6 +46,7 @@
 |--|--|
 |Seorim| [link](BOJ20004/Seorim.java)
 |hyeongjun| [link](BOJ20004/hyeongjun.cpp)
+|seho| [link](BOJ20004/seho.java)
 ---
 
 
