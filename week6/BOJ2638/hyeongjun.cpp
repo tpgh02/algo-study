@@ -4,45 +4,68 @@ using namespace std;
 using ll = long long;
 using pii = pair<int, int>;
 using pll = pair<ll, ll>;
-int ind[1001];
-vector<int> g[1001];
+int n, m;
+int cnt[100][100];
+bool visited[100][100];
+int dx[] = {1, -1, 0, 0};
+int dy[] = {0, 0, 1, -1};
 int main() {
     fastio;
-    int n, m; cin >> n >> m;
-    for(int i = 0; i < m; i++) {
-        int t; cin >> t;
-        int p = -1;
-        for(int j = 0; j < t; j++) {
-            int now; cin >> now;
-            if(p != -1) {
-                g[p].push_back(now);
-                ind[now]++;
-            }
-            p = now;
+    cin >> n >> m;
+    vector a(n, vector<int>(m));
+    for(int i = 0; i < n; i++) {
+        for(int j = 0; j < m; j++) {
+            cin >> a[i][j];
         }
     }
 
-    vector<int> ans;
-    queue<int> q;
-    for(int i = 1; i <= n; i++) {
-        if(ind[i] == 0) q.push(i);
-    }
-    while(!q.empty()) {
-        int now = q.front();
-        q.pop();
-        ans.push_back(now);
-        for(const int &next : g[now]) {
-            ind[next]--;
-            if(ind[next] == 0) {
-                q.push(next);
+
+    int ans = 0;
+    while(true) {
+        bool f = [&] () {
+            for(int i = 0; i < n; i++) {
+                for(int j = 0; j < m; j++) {
+                    if(a[i][j] == 1) {
+                        return false;
+                    }
+                }
+            }
+            return true;
+        }();
+        if(f) break;
+
+        memset(visited ,false, sizeof(visited));
+        memset(cnt, 0, sizeof(cnt));
+
+        queue<pii> q;
+        q.emplace(0, 0);
+        visited[0][0] = true;
+        set<pii> st;
+
+        while(!q.empty()) {
+            auto [x, y] = q.front();
+            q.pop();
+            for(int k = 0; k < 4; k++) {
+                int nx = x + dx[k];
+                int ny = y + dy[k];
+                if(nx < 0 || nx >= n || ny < 0 || ny >= m) continue;
+                if(!visited[nx][ny] && a[nx][ny] == 0) {
+                    visited[nx][ny] = true;
+                    q.emplace(nx, ny);
+                }
+
+                if(a[nx][ny] == 1) {
+                    cnt[nx][ny] += 1;
+                    if(cnt[nx][ny] >= 2) st.insert({nx, ny});
+                }
             }
         }
-    }
-    if(ans.size() != n) cout << 0 << '\n';
-    else {
-        for(const int &x : ans) {
-            cout << x << '\n';
+
+        for(pii x : st) {
+            a[x.first][x.second] = 0;
         }
+        ans += 1;
     }
+    cout << ans << '\n';
     return 0;
 }
