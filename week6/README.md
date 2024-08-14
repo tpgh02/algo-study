@@ -58,3 +58,11 @@
 |hyeongjun| [link](BOJ5052/hyeongjun.cpp)
 |seho| [link](BOJ5052/seho.py)
 ---
+
+
+### [BOJ_5896](https://boj.kr/5896) : 효율적으로 소 사기
+
+|이름|풀이 링크|
+|--|--|
+|hyeongjun| [link](BOJ5896/hyeongjun.cpp)
+---
