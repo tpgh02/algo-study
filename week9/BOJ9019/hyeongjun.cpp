@@ -2,88 +2,48 @@
 using namespace std;
 #define fastio cin.tie(0)->sync_with_stdio(0)
 using ll = long long;
-using pii = pair<int, int>;
-using pll = pair<ll, ll>;
-int multi_two(int now) {
-    now *= 2;
-    now %= 10000;
-    return now;
-}
-int minus_one(int now) {
-    if(now == 0) return 9999;
-    return now - 1;
-}
-int left(int now) {
-    int l = now / 1000;
-    now *= 10;
-    now += l;
-    now %= 10000;
-    return now;
-}
-int right(int now) {
-    int r = now % 10;
-    now /= 10;
-    now += r * 1000;
-    return now;
-}
 
-int p[10000];
-char pc[10000];
-
+int D(int now) {return (now * 2) % 10000;}
+int S(int now) {return (now == 0 ? 9999 : now - 1);}
+int L(int now) {return now % 1000 * 10 + now / 1000;}
+int R(int now) {return now / 10 + now % 10 * 1000;}
+char p[10000];
+int pre[10000];
+void print(int now) {
+    if(pre[now] == -2) return;
+    print(pre[now]);
+    cout << p[now];
+}
 int main() {
     fastio;
-    int n; cin >> n;
-    for(int i = 0; i < n; i++) {
-        int st, ed;
-        cin >> st >> ed;
-        memset(pc, 0, sizeof(pc));
-        memset(p, 0, sizeof(p));
+    int tc;
+    cin >> tc;
+    while(tc--) {
+        memset(p,0,sizeof(p));
+        memset(pre,-1,sizeof(pre));
+        int s, e;
+        cin >> s >> e;
+    
         queue<int> q;
-        q.push(st);
+        q.push(s);
+        pre[s] = -2;
         while(!q.empty()) {
-            int now = q. front();
-            cout << now << '\n';
-            if(now == st) break;
+            int now = q.front();
             q.pop();
+            if(now == e) break;
+            int a[4] = {D(now), S(now), L(now), R(now)};
+            char ak[4] = {'D', 'S', 'L', 'R'};
 
-            int mt = multi_two(now);
-            int m1 = minus_one(now);
-            int lt = left(now);
-            int rt = right(now);
-
-            if (p[mt] == -1) {
-                q.push(mt);
-                p[mt] = now;
-                pc[mt] = 'D';
-            }
-
-            if (p[m1] == -1) {
-                q.push(m1);
-                p[m1] = now;
-                pc[m1] = 'S';
-            }
-            if (p[lt] == -1) {
-                q.push(lt);
-                p[lt] = now;
-                pc[lt] = 'L';
-            }
-            if (p[rt] == -1) {
-                q.push(rt);
-                p[rt] = now;
-                pc[rt] = 'R';
+            for(int i = 0; i < 4; i++) {
+                if(pre[a[i]] == -1) {
+                    pre[a[i]] = now;
+                    p[a[i]] = ak[i];
+                    q.push(a[i]);
+                }
             }
         }
-
-        stack<char> stk;
-        while(ed != st) {
-            stk.push(pc[ed]);
-            ed = p[ed];
-        }
-        while(!stk.empty()) {
-            cout << stk.top();
-            stk.pop();
-        }
+        print(e);
         cout << '\n';
-    }
+    } 
     return 0;
 }
