@@ -2,6 +2,7 @@ package main
 
 import (
 	"encoding/json"
+	"errors"
 	"fmt"
 	"io"
 	"log"
@@ -22,6 +23,7 @@ func main() {
 
 func ReadWeekAndUpdateMD(week os.DirEntry) error {
 	problemDirs, err := os.ReadDir(week.Name())
+	fmt.Println(err)
 	if err != nil {
 		return err
 	}
@@ -32,8 +34,12 @@ func ReadWeekAndUpdateMD(week os.DirEntry) error {
 		if !problemDir.IsDir() {
 			continue
 		}
+		fmt.Println(problemDir)
 
-		problem := NewProblem(problemDir.Name())
+		problem, err := NewProblem(problemDir.Name())
+		if err != nil {
+			continue
+		}
 		md.AddProblem(problem)
 		problemDirPath := path.Join(week.Name(), problemDir.Name())
 
@@ -125,11 +131,13 @@ const (
 	LEETCODE   = "LEET"
 )
 
-func NewProblem(name string) *Problem {
+func NewProblem(name string) (*Problem, error) {
 	strs := make([]string, 2)
 	if name[0] == 'B' {
 		strs[0] = BAEKJOON
 		strs[1] = name[3:]
+	} else {
+		return nil, errors.New("Only BOJ Can make Problem")
 	}
 
 	problem := &Problem{
@@ -137,7 +145,7 @@ func NewProblem(name string) *Problem {
 		number:   strs[1],
 	}
 	problem.getProblemName()
-	return problem
+	return problem, nil
 }
 
 func (p *Problem) getProblemName() {
