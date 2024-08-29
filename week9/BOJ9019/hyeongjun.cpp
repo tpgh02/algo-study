@@ -42,12 +42,11 @@ int main() {
         q.push(st);
         while(!q.empty()) {
             int now = q. front();
-            cout << now << '\n';
             if(now == st) break;
             q.pop();
 
             int mt = multi_two(now);
-            int m1 = minus_one(now);
+            int m1 = minus_one(now);Q
             int lt = left(now);
             int rt = right(now);
 
