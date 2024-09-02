@@ -41,8 +41,8 @@ int main() {
             for(auto &[next, cost] : g[now]) {
                 if(dist[next] < dist[now] + cost) {
                     if(t == n - 1) {
-                        dist[now] = -1e14;
-                        dist[next] = -1e14;
+                        dist[now] = 1e14;
+                        dist[next] = 1e14;
                         p[next] = now;
                     } else {
                         dist[next] = dist[now] + cost;
