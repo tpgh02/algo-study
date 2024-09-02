@@ -19,15 +19,6 @@ bool fil(int x, int y, int sz, int v) {
             a[i][j] += v;
         }
     }
-    
-    // for(int i = 0; i < 10; i++) {
-    //     for(int j = 0; j < 10; j++) {
-    //         cout << a[i][j] << ' ';
-    //     }
-    //     cout << '\n';
-    // }
-    // cout << '\n';
-    
     return true;
 }
 int go(int now) {
