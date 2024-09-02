@@ -28,18 +28,51 @@ int main() {
         q.push(s);
         pre[s] = -2;
         while(!q.empty()) {
+<<<<<<< HEAD
+            int now = q. front();
+            if(now == st) break;
+=======
             int now = q.front();
+>>>>>>> 1c3d3341a36c56ebf2cc39c2ca58fec9707c6084
             q.pop();
             if(now == e) break;
             int a[4] = {D(now), S(now), L(now), R(now)};
             char ak[4] = {'D', 'S', 'L', 'R'};
 
+<<<<<<< HEAD
+            int mt = multi_two(now);
+            int m1 = minus_one(now);Q
+            int lt = left(now);
+            int rt = right(now);
+
+            if (p[mt] == -1) {
+                q.push(mt);
+                p[mt] = now;
+                pc[mt] = 'D';
+            }
+
+            if (p[m1] == -1) {
+                q.push(m1);
+                p[m1] = now;
+                pc[m1] = 'S';
+            }
+            if (p[lt] == -1) {
+                q.push(lt);
+                p[lt] = now;
+                pc[lt] = 'L';
+            }
+            if (p[rt] == -1) {
+                q.push(rt);
+                p[rt] = now;
+                pc[rt] = 'R';
+=======
             for(int i = 0; i < 4; i++) {
                 if(pre[a[i]] == -1) {
                     pre[a[i]] = now;
                     p[a[i]] = ak[i];
                     q.push(a[i]);
                 }
+>>>>>>> 1c3d3341a36c56ebf2cc39c2ca58fec9707c6084
             }
         }
         print(e);

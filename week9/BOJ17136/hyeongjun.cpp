@@ -19,6 +19,10 @@ bool fil(int x, int y, int sz, int v) {
             a[i][j] += v;
         }
     }
+<<<<<<< HEAD
+=======
+    
+>>>>>>> daa260256e20a28e8cbf54e3e2e868dde89c1f73
     return true;
 }
 int go(int now) {

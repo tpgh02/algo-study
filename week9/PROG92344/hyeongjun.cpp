@@ -14,7 +14,9 @@ int solution(vector<vector<int>> board, vector<vector<int>> skill) {
         int r2 = sk[3];
         int c2 = sk[4];
         int deg = sk[5];
+        
         if(type == 1) deg *= -1;
+
         mp[r1][c1] += deg;
         mp[r1][c2 + 1] -= deg;
         mp[r2 + 1][c1] -= deg;

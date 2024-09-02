@@ -4,7 +4,10 @@
 
 |이름|풀이 링크|
 |--|--|
+|Seorim| [link](BOJ16234/Seorim.java)
+|gyuri| [link](BOJ16234/gyuri.py)
 |hyeongjun| [link](BOJ16234/hyeongjun.cpp)
+|seho| [link](BOJ16234/seho.py)
 ---
 
 
@@ -12,6 +15,8 @@
 
 |이름|풀이 링크|
 |--|--|
+|Seorim| [link](BOJ17136/Seorim.java)
+|gyuri| [link](BOJ17136/gyuri.py)
 |hyeongjun| [link](BOJ17136/hyeongjun.cpp)
 ---
 
@@ -20,7 +25,10 @@
 
 |이름|풀이 링크|
 |--|--|
+|Seorim| [link](BOJ2468/Seorim.java)
+|gyuri| [link](BOJ2468/gyuri.py)
 |hyeongjun| [link](BOJ2468/hyeongjun.cpp)
+|seho| [link](BOJ2468/seho.java)
 ---
 
 
@@ -28,7 +36,10 @@
 
 |이름|풀이 링크|
 |--|--|
+|Seorim| [link](BOJ3482/Seorim.java)
+|gyuri| [link](BOJ3482/gyuri.py)
 |hyeongjun| [link](BOJ3482/hyeongjun.cpp)
+|seho| [link](BOJ3482/seho.py)
 ---
 
 
@@ -36,7 +47,10 @@
 
 |이름|풀이 링크|
 |--|--|
+|Seorim| [link](BOJ6236/Seorim.java)
+|gyuri| [link](BOJ6236/gyuri.py)
 |hyeongjun| [link](BOJ6236/hyeongjun.cpp)
+|seho| [link](BOJ6236/seho.py)
 ---
 
 
@@ -44,5 +58,8 @@
 
 |이름|풀이 링크|
 |--|--|
+|Seorim| [link](BOJ9019/Seorim.java)
+|gyuri| [link](BOJ9019/gyuri.py)
 |hyeongjun| [link](BOJ9019/hyeongjun.cpp)
+|seho| [link](BOJ9019/seho.py)
 ---
