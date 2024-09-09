@@ -25,7 +25,6 @@ int main() {
             }
         }
     }
-    
 
     while(!q.empty()) {
         auto [x, y, state] = q.front();
@@ -46,14 +45,12 @@ int main() {
                     dist[nx][ny][n_state] = dist[x][y][state] + 1;
                     q.emplace(nx, ny, n_state);
                 }
-
             } else if('A' <= a[nx][ny] && a[nx][ny] <= 'F') {
                 int now = a[nx][ny] - 'A';
                 if(state & 1 << now && dist[nx][ny][state] == -1) {
                     dist[nx][ny][state] = dist[x][y][state] + 1;
                     q.emplace(nx, ny, state);
                 }
-
             } else {
                 if(dist[nx][ny][state] != -1) continue;
                 dist[nx][ny][state] = dist[x][y][state] + 1;
