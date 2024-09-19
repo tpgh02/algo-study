@@ -7,6 +7,7 @@
 |hyeongjun| [link](BOJ1389/hyeongjun.cpp)
 |seho| [link](BOJ1389/seho.py)
 |seorim| [link](BOJ1389/seorim.py)
+|soyoon| [link](BOJ1389/soyoon.py)
 ---
 
 
