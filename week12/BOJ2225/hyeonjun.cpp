@@ -8,7 +8,6 @@ int n, k;
 int mod = 1e9;
 int dp[201][201];
 int go(int val, int cnt) {
-    if(val < 0) return 0;
     if(cnt == 0) {
         if(val == 0) return 1;
         return 0;
