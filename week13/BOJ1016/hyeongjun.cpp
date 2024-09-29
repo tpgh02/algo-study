@@ -5,11 +5,23 @@ using ll = long long;
 using pii = pair<int, int>;
 using pll = pair<ll, ll>;
 bool check[1000001];
+bool p[1100000];
 int main() {
     fastio;
     ll l, r;
     cin >> l >> r;
-    for(ll i = 2; i * i <= r; i++) {
+    vector<ll> prime;
+    ll sqrtr = ll(ceil(sqrt(r)));
+    for(ll i = 2; i <= sqrtr; i++) {
+        if(!p[i]) {
+            prime.push_back(i);
+            for(ll j = i * i; j <= sqrtr; j += i) {
+                p[j] = true;
+            }
+        }
+    }
+
+    for(ll i : prime) {
         ll now = i * i;
         ll remain = l % now;
     
