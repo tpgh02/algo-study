@@ -40,6 +40,7 @@
 |hyeongjun| [link](BOJ2637/hyeongjun.cpp)
 |seho| [link](BOJ2637/seho.py)
 |seorim| [link](BOJ2637/seorim.py)
+|seungwoo| [link](BOJ2637/seungwoo.py)
 ---
 
 
@@ -50,6 +51,7 @@
 |hyeongjun| [link](BOJ2696/hyeongjun.cpp)
 |seho| [link](BOJ2696/seho.py)
 |seorim| [link](BOJ2696/seorim.py)
+|seungwoo| [link](BOJ2696/seungwoo.py)
 ---
 
 
