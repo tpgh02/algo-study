@@ -6,7 +6,7 @@ using pii = pair<int, int>;
 using pll = pair<ll, ll>;
 int n, m;
 vector<pii> g[101];
-int ind[101], outd[101], a[101];
+int ind[101], outd[101], cnt[101];
 int main() {
     fastio;
     cin >> n >> m;
@@ -20,13 +20,13 @@ int main() {
 
     queue<int> q;
     q.push(n);
-    a[n] = 1;
+    cnt[n] = 1;
     while(!q.empty()) {
         int now = q.front();
         q.pop();
         for(auto [next, cost] : g[now]) {
             ind[next]--;
-            a[next] += a[now] * cost;
+            cnt[next] += cnt[now] * cost;
             if(ind[next] == 0) {
                 q.push(next);
             }
@@ -34,8 +34,8 @@ int main() {
     }
 
     for(int i = 1; i < n; i++) {
-        if(outd[i] == 0 && a[i] != 0)  {
-            cout << i << ' ' << a[i] << '\n';
+        if(outd[i] == 0 && cnt[i] != 0)  {
+            cout << i << ' ' << cnt[i] << '\n';
         }
     }
 
