@@ -31,11 +31,13 @@ int main() {
     int cnt = 0;
     int ans = 0;
     for(int i = 0; i < m; i++) {
-        if(cnt == n - 2) break;
+        if(cnt == n - 1) break;
         auto [t3, t1, t2] = a[i];
+        int x = t1, y = t2;
         t1 = find(t1);
         t2 = find(t2);
         if(t1 != t2) {
+            cout << x << ' ' << y << ' ' << t3  << '\n';
             set_union(t1, t2);
             ans += t3;
             cnt += 1;
