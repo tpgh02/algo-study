@@ -16,6 +16,7 @@
 |--|--|
 |Seorim| [link](BOJ1194/Seorim.java)
 |hyeongjun| [link](BOJ1194/hyeongjun.cpp)
+|seho| [link](BOJ1194/seho.py)
 ---
 
 

@@ -5,6 +5,8 @@
 |이름|풀이 링크|
 |--|--|
 |hyeongjun| [link](BOJ10986/hyeongjun.cpp)
+|seho| [link](BOJ10986/seho.py)
+|seungwoo| [link](BOJ10986/seungwoo.py)
 ---
 
 
@@ -13,6 +15,8 @@
 |이름|풀이 링크|
 |--|--|
 |hyeongjun| [link](BOJ11057/hyeongjun.cpp)
+|seho| [link](BOJ11057/seho.py)
+|seungwoo| [link](BOJ11057/seungwoo.py)
 ---
 
 
@@ -21,6 +25,8 @@
 |이름|풀이 링크|
 |--|--|
 |hyeongjun| [link](BOJ1507/hyeongjun.cpp)
+|seho| [link](BOJ1507/seho.py)
+|seungwoo| [link](BOJ1507/seungwoo.py)
 ---
 
 
@@ -29,6 +35,8 @@
 |이름|풀이 링크|
 |--|--|
 |hyeongjun| [link](BOJ16500/hyeongjun.cpp)
+|seho| [link](BOJ16500/seho.py)
+|seungwoo| [link](BOJ16500/seungwoo.py)
 ---
 
 
@@ -37,6 +45,8 @@
 |이름|풀이 링크|
 |--|--|
 |hyeongjun| [link](BOJ1780/hyeongjun.cpp)
+|seho| [link](BOJ1780/seho.py)
+|seungwoo| [link](BOJ1780/seungwoo.py)
 ---
 
 
@@ -45,4 +55,6 @@
 |이름|풀이 링크|
 |--|--|
 |hyeongjun| [link](BOJ2661/hyeongjun.cpp)
+|seho| [link](BOJ2661/seho.py)
+|seungwoo| [link](BOJ2661/seungwoo.py)
 ---
