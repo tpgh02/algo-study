@@ -6,6 +6,7 @@
 |--|--|
 |hyeongjun| [link](BOJ10986/hyeongjun.cpp)
 |seho| [link](BOJ10986/seho.py)
+|seorim| [link](BOJ10986/seorim.py)
 |seungwoo| [link](BOJ10986/seungwoo.py)
 ---
 
@@ -16,6 +17,7 @@
 |--|--|
 |hyeongjun| [link](BOJ11057/hyeongjun.cpp)
 |seho| [link](BOJ11057/seho.py)
+|seorim| [link](BOJ11057/seorim.py)
 |seungwoo| [link](BOJ11057/seungwoo.py)
 ---
 
@@ -26,6 +28,7 @@
 |--|--|
 |hyeongjun| [link](BOJ1507/hyeongjun.cpp)
 |seho| [link](BOJ1507/seho.py)
+|seorim| [link](BOJ1507/seorim.py)
 |seungwoo| [link](BOJ1507/seungwoo.py)
 ---
 
@@ -36,6 +39,7 @@
 |--|--|
 |hyeongjun| [link](BOJ16500/hyeongjun.cpp)
 |seho| [link](BOJ16500/seho.py)
+|seorim| [link](BOJ16500/seorim.py)
 |seungwoo| [link](BOJ16500/seungwoo.py)
 ---
 
@@ -46,6 +50,7 @@
 |--|--|
 |hyeongjun| [link](BOJ1780/hyeongjun.cpp)
 |seho| [link](BOJ1780/seho.py)
+|seorim| [link](BOJ1780/seorim.py)
 |seungwoo| [link](BOJ1780/seungwoo.py)
 ---
 
@@ -56,5 +61,6 @@
 |--|--|
 |hyeongjun| [link](BOJ2661/hyeongjun.cpp)
 |seho| [link](BOJ2661/seho.py)
+|seorim| [link](BOJ2661/seorim.py)
 |seungwoo| [link](BOJ2661/seungwoo.py)
 ---
