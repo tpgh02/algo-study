@@ -59,7 +59,6 @@ int go(int x1, int x2, int y1, int y2, int dir) {
     return ret;
 }
 
-
 int main() {
     fastio;
     cin >> n; 

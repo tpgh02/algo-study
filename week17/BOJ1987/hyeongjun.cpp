@@ -26,12 +26,16 @@ int main() {
     while(!q.empty()) {
         auto [x, y, state] = q.front();
         q.pop();
-        for(int k =0; k < 4; k++) {
+        for(int k = 0; k < 4; k++) {
             int nx = x + dx[k];
             int ny = y + dy[k];
+
             if(nx < 0 || nx >= n || ny < 0 || ny >= m) continue;
+
             int c = a[nx][ny] - 'A';
+
             if(state & 1 << c) continue;
+
             int nstate = state | 1 << c;
             if(st[nx][ny].count(nstate)) continue;
             
