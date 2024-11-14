@@ -4,10 +4,10 @@
 
 |이름|풀이 링크|
 |--|--|
-|hyeongjun| [link](BOJ10986/hyeongjun.cpp)
-|seho| [link](BOJ10986/seho.py)
-|seorim| [link](BOJ10986/seorim.py)
-|seungwoo| [link](BOJ10986/seungwoo.py)
+|hyeongjun| [link](BOJ_10986/hyeongjun.cpp)
+|seho| [link](BOJ_10986/seho.py)
+|seorim| [link](BOJ_10986/seorim.py)
+|seungwoo| [link](BOJ_10986/seungwoo.py)
 ---
 
 
@@ -15,10 +15,10 @@
 
 |이름|풀이 링크|
 |--|--|
-|hyeongjun| [link](BOJ11057/hyeongjun.cpp)
-|seho| [link](BOJ11057/seho.py)
-|seorim| [link](BOJ11057/seorim.py)
-|seungwoo| [link](BOJ11057/seungwoo.py)
+|hyeongjun| [link](BOJ_11057/hyeongjun.cpp)
+|seho| [link](BOJ_11057/seho.py)
+|seorim| [link](BOJ_11057/seorim.py)
+|seungwoo| [link](BOJ_11057/seungwoo.py)
 ---
 
 
@@ -26,10 +26,10 @@
 
 |이름|풀이 링크|
 |--|--|
-|hyeongjun| [link](BOJ1507/hyeongjun.cpp)
-|seho| [link](BOJ1507/seho.py)
-|seorim| [link](BOJ1507/seorim.py)
-|seungwoo| [link](BOJ1507/seungwoo.py)
+|hyeongjun| [link](BOJ_1507/hyeongjun.cpp)
+|seho| [link](BOJ_1507/seho.py)
+|seorim| [link](BOJ_1507/seorim.py)
+|seungwoo| [link](BOJ_1507/seungwoo.py)
 ---
 
 
@@ -37,10 +37,10 @@
 
 |이름|풀이 링크|
 |--|--|
-|hyeongjun| [link](BOJ16500/hyeongjun.cpp)
-|seho| [link](BOJ16500/seho.py)
-|seorim| [link](BOJ16500/seorim.py)
-|seungwoo| [link](BOJ16500/seungwoo.py)
+|hyeongjun| [link](BOJ_16500/hyeongjun.cpp)
+|seho| [link](BOJ_16500/seho.py)
+|seorim| [link](BOJ_16500/seorim.py)
+|seungwoo| [link](BOJ_16500/seungwoo.py)
 ---
 
 
@@ -48,10 +48,10 @@
 
 |이름|풀이 링크|
 |--|--|
-|hyeongjun| [link](BOJ1780/hyeongjun.cpp)
-|seho| [link](BOJ1780/seho.py)
-|seorim| [link](BOJ1780/seorim.py)
-|seungwoo| [link](BOJ1780/seungwoo.py)
+|hyeongjun| [link](BOJ_1780/hyeongjun.cpp)
+|seho| [link](BOJ_1780/seho.py)
+|seorim| [link](BOJ_1780/seorim.py)
+|seungwoo| [link](BOJ_1780/seungwoo.py)
 ---
 
 
@@ -59,8 +59,8 @@
 
 |이름|풀이 링크|
 |--|--|
-|hyeongjun| [link](BOJ2661/hyeongjun.cpp)
-|seho| [link](BOJ2661/seho.py)
-|seorim| [link](BOJ2661/seorim.py)
-|seungwoo| [link](BOJ2661/seungwoo.py)
+|hyeongjun| [link](BOJ_2661/hyeongjun.cpp)
+|seho| [link](BOJ_2661/seho.py)
+|seorim| [link](BOJ_2661/seorim.py)
+|seungwoo| [link](BOJ_2661/seungwoo.py)
 ---

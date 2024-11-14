@@ -15,7 +15,6 @@ import (
 
 func main() {
 	weeks := getWeekDir()
-
 	wg := new(sync.WaitGroup)
 	for _, week := range weeks {
 		wg.Add(1)
@@ -46,7 +45,7 @@ func ReadWeekAndUpdateMD(week os.DirEntry, wg *sync.WaitGroup) {
 			fmt.Println(err)
 			continue
 		}
-		fmt.Println(week.Name() + " " + problem.platform + " " + problem.number + " " + problem.name)
+		fmt.Println(week.Name() + ": " + problem.platform + " " + problem.number + " " + problem.name)
 
 		md.AddProblem(problem)
 		problemDirPath := path.Join(week.Name(), problemDir.Name())
@@ -142,8 +141,7 @@ const (
 func NewProblem(name string) (*Problem, error) {
 	strs := make([]string, 2)
 	if name[0] == 'B' {
-		strs[0] = BAEKJOON
-		strs[1] = name[3:]
+		strs = strings.Split(name, "_")
 	} else {
 		return nil, errors.New("Only BOJ Can make Problem")
 	}

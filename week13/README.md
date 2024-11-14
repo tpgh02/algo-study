@@ -4,10 +4,10 @@
 
 |이름|풀이 링크|
 |--|--|
-|hyeongjun| [link](BOJ1016/hyeongjun.cpp)
-|seho| [link](BOJ1016/seho.py)
-|seorim| [link](BOJ1016/seorim.py)
-|soyoon| [link](BOJ1016/soyoon.py)
+|hyeongjun| [link](BOJ_1016/hyeongjun.cpp)
+|seho| [link](BOJ_1016/seho.py)
+|seorim| [link](BOJ_1016/seorim.py)
+|soyoon| [link](BOJ_1016/soyoon.py)
 ---
 
 
@@ -15,11 +15,11 @@
 
 |이름|풀이 링크|
 |--|--|
-|hyeongjun| [link](BOJ11286/hyeongjun.cpp)
-|seho| [link](BOJ11286/seho.py)
-|seorim| [link](BOJ11286/seorim.py)
-|seungwoo| [link](BOJ11286/seungwoo.py)
-|soyoon| [link](BOJ11286/soyoon.py)
+|hyeongjun| [link](BOJ_11286/hyeongjun.cpp)
+|seho| [link](BOJ_11286/seho.py)
+|seorim| [link](BOJ_11286/seorim.py)
+|seungwoo| [link](BOJ_11286/seungwoo.py)
+|soyoon| [link](BOJ_11286/soyoon.py)
 ---
 
 
@@ -27,11 +27,11 @@
 
 |이름|풀이 링크|
 |--|--|
-|hyeongjun| [link](BOJ1406/hyeongjun.cpp)
-|seho| [link](BOJ1406/seho.py)
-|seorim| [link](BOJ1406/seorim.py)
-|seungwoo| [link](BOJ1406/seungwoo.py)
-|soyoon| [link](BOJ1406/soyoon.py)
+|hyeongjun| [link](BOJ_1406/hyeongjun.cpp)
+|seho| [link](BOJ_1406/seho.py)
+|seorim| [link](BOJ_1406/seorim.py)
+|seungwoo| [link](BOJ_1406/seungwoo.py)
+|soyoon| [link](BOJ_1406/soyoon.py)
 ---
 
 
@@ -39,10 +39,10 @@
 
 |이름|풀이 링크|
 |--|--|
-|hyeongjun| [link](BOJ1976/hyeongjun.cpp)
-|seho| [link](BOJ1976/seho.py)
-|seorim| [link](BOJ1976/seorim.py)
-|soyoon| [link](BOJ1976/soyoon.py)
+|hyeongjun| [link](BOJ_1976/hyeongjun.cpp)
+|seho| [link](BOJ_1976/seho.py)
+|seorim| [link](BOJ_1976/seorim.py)
+|soyoon| [link](BOJ_1976/soyoon.py)
 ---
 
 
@@ -50,10 +50,10 @@
 
 |이름|풀이 링크|
 |--|--|
-|hyeongjun| [link](BOJ2110/hyeongjun.cpp)
-|seho| [link](BOJ2110/seho.py)
-|seorim| [link](BOJ2110/seorim.py)
-|soyoon| [link](BOJ2110/soyoon.py)
+|hyeongjun| [link](BOJ_2110/hyeongjun.cpp)
+|seho| [link](BOJ_2110/seho.py)
+|seorim| [link](BOJ_2110/seorim.py)
+|soyoon| [link](BOJ_2110/soyoon.py)
 ---
 
 
@@ -61,8 +61,8 @@
 
 |이름|풀이 링크|
 |--|--|
-|hyeongjun| [link](BOJ2206/hyeongjun.cpp)
-|seho| [link](BOJ2206/seho.py)
-|seorim| [link](BOJ2206/seorim.py)
-|soyoon| [link](BOJ2206/soyoon.py)
+|hyeongjun| [link](BOJ_2206/hyeongjun.cpp)
+|seho| [link](BOJ_2206/seho.py)
+|seorim| [link](BOJ_2206/seorim.py)
+|soyoon| [link](BOJ_2206/soyoon.py)
 ---
