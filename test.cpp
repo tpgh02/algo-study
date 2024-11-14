@@ -4,9 +4,12 @@ using namespace std;
 using ll = long long;
 using pii = pair<int, int>;
 using pll = pair<ll, ll>;
-
+void test(vector<int> a) {
+    a[0] = 5;
+}
 int main() {
     fastio;
-    cout << "hello World" << '\n';
+    vector<int> a{10, 20, 30};
+    test(a);
     return 0;
 }
