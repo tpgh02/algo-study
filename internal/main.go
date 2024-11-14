@@ -10,22 +10,29 @@ import (
 	"os"
 	"path"
 	"strings"
+	"sync"
 )
 
 func main() {
 	weeks := getWeekDir()
 
+	wg := new(sync.WaitGroup)
 	for _, week := range weeks {
-		ReadWeekAndUpdateMD(week)
+		fmt.Println(week.Name())
+		wg.Add(1)
+		go ReadWeekAndUpdateMD(week, wg)
 	}
+	wg.Wait()
 
 }
 
-func ReadWeekAndUpdateMD(week os.DirEntry) error {
+func ReadWeekAndUpdateMD(week os.DirEntry, wg *sync.WaitGroup) {
+	defer wg.Done()
+
 	problemDirs, err := os.ReadDir(week.Name())
-	fmt.Println(err)
 	if err != nil {
-		return err
+		fmt.Printf("Problem occured in %s, err = %s", week.Name(), err.Error())
+		return
 	}
 
 	md := NewMD(week.Name())
@@ -34,12 +41,14 @@ func ReadWeekAndUpdateMD(week os.DirEntry) error {
 		if !problemDir.IsDir() {
 			continue
 		}
-		fmt.Println(problemDir)
 
 		problem, err := NewProblem(problemDir.Name())
 		if err != nil {
+			fmt.Println(err)
 			continue
 		}
+		fmt.Println(problem.platform + " " + problem.number + " " + problem.name)
+
 		md.AddProblem(problem)
 		problemDirPath := path.Join(week.Name(), problemDir.Name())
 
@@ -58,7 +67,7 @@ func ReadWeekAndUpdateMD(week os.DirEntry) error {
 	mdpath := path.Join(week.Name(), "README.md")
 	os.WriteFile(mdpath, []byte(md.Body), 0644)
 
-	return nil
+	return
 }
 
 func getWeekDir() []os.DirEntry {
