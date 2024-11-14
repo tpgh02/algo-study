@@ -76,7 +76,7 @@ func getWeekDir() []os.DirEntry {
 
 	result := make([]os.DirEntry, 0)
 	for _, entry := range entrySet {
-		if strings.HasPrefix(entry.Name(), "week") {
+		if strings.HasPrefix(entry.Name(), "WEEK") {
 			result = append(result, entry)
 		}
 	}
