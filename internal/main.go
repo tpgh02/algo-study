@@ -18,7 +18,6 @@ func main() {
 
 	wg := new(sync.WaitGroup)
 	for _, week := range weeks {
-		fmt.Println(week.Name())
 		wg.Add(1)
 		go ReadWeekAndUpdateMD(week, wg)
 	}
@@ -47,7 +46,7 @@ func ReadWeekAndUpdateMD(week os.DirEntry, wg *sync.WaitGroup) {
 			fmt.Println(err)
 			continue
 		}
-		fmt.Println(problem.platform + " " + problem.number + " " + problem.name)
+		fmt.Println(week.Name() + " " + problem.platform + " " + problem.number + " " + problem.name)
 
 		md.AddProblem(problem)
 		problemDirPath := path.Join(week.Name(), problemDir.Name())
